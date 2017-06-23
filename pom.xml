@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.kkrzysiu.tools</groupId>
-  <artifactId>devApp</artifactId>
+  <artifactId>app-java-bamboo</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>Test application</name>
+  <name>Test application build in Bamboo</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
