@@ -27,7 +27,7 @@ public class Servlet {
                     throws ServletException, IOException {
                 
                 Writer w = resp.getWriter();
-                w.write("This is an example application, version 1.0.\n");
+                w.write("This is an example application build with help of Bamboo. The version of application is: 1.0.\n");
                 w.flush();
                 w.close();
             }
