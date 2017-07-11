@@ -4,7 +4,7 @@
 
   <groupId>org.kkrzysiu.tools</groupId>
   <artifactId>app-java-bamboo</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Test application build in Bamboo</name>
