@@ -15,6 +15,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.jcabi</groupId>
+      <artifactId>jcabi-manifests</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.tomcat.embed</groupId>
       <artifactId>tomcat-embed-core</artifactId>
       <version>8.5.15</version>
@@ -73,6 +78,23 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
+  <scm>
+    <connection>scm:git:https://github.com/skowpio/app-java-bamboo</connection>
+    <developerConnection>scm:git:https://github.com/skowpio/app-java-bamboo</developerConnection>
+    <url>https://github.com/skowpio/app-java-bamboo</url>
+    <tag>HEAD</tag>
 </project>
