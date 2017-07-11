@@ -3,7 +3,7 @@
 
   <groupId>org.kkrzysiu.tools</groupId>
   <artifactId>app-java-bamboo</artifactId>
-  <version>1.45-SNAPSHOT</version>
+  <version>1.45</version>
   <packaging>jar</packaging>
 
   <name>Test application build in Bamboo</name>
@@ -95,6 +95,6 @@
     <connection>scm:git:https://github.com/skowpio/app-java-bamboo</connection>
     <developerConnection>scm:git:https://github.com/skowpio/app-java-bamboo</developerConnection>
     <url>https://github.com/skowpio/app-java-bamboo</url>
-    <tag>HEAD</tag>
+    <tag>app-java-bamboo-1.45</tag>
   </scm>
 </project>
