@@ -10,6 +10,7 @@ import java.io.Writer;
 import org.apache.catalina.Context;
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.startup.Tomcat;
+import com.jcabi.manifests.Manifests;
 
 public class Servlet {
 
@@ -27,7 +28,7 @@ public class Servlet {
                     throws ServletException, IOException {
                 
                 Writer w = resp.getWriter();
-                w.write("This is an example application build with help of Bamboo. The version of application is: 1.0.\n");
+                w.write("<h1>This is an example Web application built with help of Bamboo.<ul><li>The version of application is: " + Manifests.read("Implementation-Version") + "</li><li>The application has been deployed by: " + System.getProperty("deployedBy") + "</li><li>The application has been started on system user: " + System.getProperty("user.name") + "</li><li>The application runs on host: " + InetAddress.getLocalHost().getHostName() + "</li></ul></h1>\n");
                 w.flush();
                 w.close();
             }
