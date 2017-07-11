@@ -97,4 +97,5 @@
     <developerConnection>scm:git:https://github.com/skowpio/app-java-bamboo</developerConnection>
     <url>https://github.com/skowpio/app-java-bamboo</url>
     <tag>HEAD</tag>
+  </scm>
 </project>
